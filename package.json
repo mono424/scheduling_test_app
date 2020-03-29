@@ -2,6 +2,7 @@
   "name": "scheduling_visual_app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mono424.github.io/scheduling-test",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
