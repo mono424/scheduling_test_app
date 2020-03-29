@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/scheduling-test/static/css/main.94b9fc6b.chunk.css",
+    "main.js": "/scheduling-test/static/js/main.0e0e3ea3.chunk.js",
+    "main.js.map": "/scheduling-test/static/js/main.0e0e3ea3.chunk.js.map",
+    "runtime-main.js": "/scheduling-test/static/js/runtime-main.04fe404c.js",
+    "runtime-main.js.map": "/scheduling-test/static/js/runtime-main.04fe404c.js.map",
+    "static/js/2.b59c4090.chunk.js": "/scheduling-test/static/js/2.b59c4090.chunk.js",
+    "static/js/2.b59c4090.chunk.js.map": "/scheduling-test/static/js/2.b59c4090.chunk.js.map",
+    "index.html": "/scheduling-test/index.html",
+    "precache-manifest.fb20e72b04983ecbb6f840d98b775c79.js": "/scheduling-test/precache-manifest.fb20e72b04983ecbb6f840d98b775c79.js",
+    "service-worker.js": "/scheduling-test/service-worker.js",
+    "static/css/main.94b9fc6b.chunk.css.map": "/scheduling-test/static/css/main.94b9fc6b.chunk.css.map",
+    "static/js/2.b59c4090.chunk.js.LICENSE.txt": "/scheduling-test/static/js/2.b59c4090.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04fe404c.js",
+    "static/js/2.b59c4090.chunk.js",
+    "static/css/main.94b9fc6b.chunk.css",
+    "static/js/main.0e0e3ea3.chunk.js"
+  ]
+}
