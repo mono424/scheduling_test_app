@@ -2,6 +2,7 @@
   "name": "scheduling_visual_app",
   "version": "0.1.0",
   "private": true,
+  "license": "WTFPL",
   "homepage": "https://mono424.github.io/scheduling_test_app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
