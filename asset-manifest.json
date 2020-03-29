@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/scheduling-test/static/css/main.94b9fc6b.chunk.css",
-    "main.js": "/scheduling-test/static/js/main.0e0e3ea3.chunk.js",
-    "main.js.map": "/scheduling-test/static/js/main.0e0e3ea3.chunk.js.map",
-    "runtime-main.js": "/scheduling-test/static/js/runtime-main.04fe404c.js",
-    "runtime-main.js.map": "/scheduling-test/static/js/runtime-main.04fe404c.js.map",
-    "static/js/2.b59c4090.chunk.js": "/scheduling-test/static/js/2.b59c4090.chunk.js",
-    "static/js/2.b59c4090.chunk.js.map": "/scheduling-test/static/js/2.b59c4090.chunk.js.map",
-    "index.html": "/scheduling-test/index.html",
-    "precache-manifest.fb20e72b04983ecbb6f840d98b775c79.js": "/scheduling-test/precache-manifest.fb20e72b04983ecbb6f840d98b775c79.js",
-    "service-worker.js": "/scheduling-test/service-worker.js",
-    "static/css/main.94b9fc6b.chunk.css.map": "/scheduling-test/static/css/main.94b9fc6b.chunk.css.map",
-    "static/js/2.b59c4090.chunk.js.LICENSE.txt": "/scheduling-test/static/js/2.b59c4090.chunk.js.LICENSE.txt"
+    "main.css": "/scheduling_test_app/static/css/main.94b9fc6b.chunk.css",
+    "main.js": "/scheduling_test_app/static/js/main.0e0e3ea3.chunk.js",
+    "main.js.map": "/scheduling_test_app/static/js/main.0e0e3ea3.chunk.js.map",
+    "runtime-main.js": "/scheduling_test_app/static/js/runtime-main.4795cdeb.js",
+    "runtime-main.js.map": "/scheduling_test_app/static/js/runtime-main.4795cdeb.js.map",
+    "static/js/2.b59c4090.chunk.js": "/scheduling_test_app/static/js/2.b59c4090.chunk.js",
+    "static/js/2.b59c4090.chunk.js.map": "/scheduling_test_app/static/js/2.b59c4090.chunk.js.map",
+    "index.html": "/scheduling_test_app/index.html",
+    "precache-manifest.4498bea33bbadb581e736b2504fa4d00.js": "/scheduling_test_app/precache-manifest.4498bea33bbadb581e736b2504fa4d00.js",
+    "service-worker.js": "/scheduling_test_app/service-worker.js",
+    "static/css/main.94b9fc6b.chunk.css.map": "/scheduling_test_app/static/css/main.94b9fc6b.chunk.css.map",
+    "static/js/2.b59c4090.chunk.js.LICENSE.txt": "/scheduling_test_app/static/js/2.b59c4090.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.04fe404c.js",
+    "static/js/runtime-main.4795cdeb.js",
     "static/js/2.b59c4090.chunk.js",
     "static/css/main.94b9fc6b.chunk.css",
     "static/js/main.0e0e3ea3.chunk.js"
