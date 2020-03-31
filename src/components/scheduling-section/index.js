@@ -23,7 +23,7 @@ function SchedulingSection({ processes, type, headline }) {
         ]}
         options={{
           colors,
-          avoidOverlappingGridLines: true,
+          avoidOverlappingGridLines: false,
         }}
       />
       <div className="SchedulingSection-stats">

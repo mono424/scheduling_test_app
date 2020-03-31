@@ -5,7 +5,7 @@ import "./styles.css";
 function ProcessDialog({ process, onSave, onCancel }) {
   const [color, setColor] = useState({});
   const [processId, setProcessId] = useState(process.id);
-  const [oProcessId, setOProcessId] = useState(process.id);
+  const [oProcessId] = useState(process.id);
   const [arrivalTime, setArrivalTime] = useState(process.arrivalTime);
   const [serviceTime, setServiceTime] = useState(process.serviceTime);
   const [priority, setPriority] = useState(process.priority);

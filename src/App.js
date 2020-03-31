@@ -38,6 +38,10 @@ function App() {
         <SchedulingSection headline="First Come First Served (FCFS)" processes={processes} type="fcfs" />
         <SchedulingSection headline="Shortest Process Next (SPN)" processes={processes} type="spn" />
         <SchedulingSection headline="Shortest Remaining Time Next (SRT)" processes={processes} type="srt" />
+        <SchedulingSection headline="Round Robin (Quantum = 1)" processes={processes} type="rr1" />
+        <SchedulingSection headline="Round Robin (Quantum = 4)" processes={processes} type="rr4" />
+        <SchedulingSection headline="Highest Priority First (with preemption)" processes={processes} type="hpwp" />
+        <SchedulingSection headline="Highest Priority First (without preemption)" processes={processes} type="hpnp" />
       </div>
 
       {selectedProcess && <ProcessDialog process={selectedProcess} onSave={updateProcess} onCancel={() => setSelectedProcess(null)} />}
