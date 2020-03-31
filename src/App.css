@@ -41,3 +41,31 @@ h2 {
 .footer a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
+
+.footer-print {
+  display: none;
+  line-height: 2;
+}
+
+@media print {
+  .App {
+    margin: 0;
+  }
+
+  .box {
+    box-shadow: none !important;
+  }
+
+  .print-break {
+    page-break-after: always;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footer-print {
+    display: block;
+  }
+
+}

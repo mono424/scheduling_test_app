@@ -33,20 +33,31 @@ function App() {
         <ProcessTable processes={processes} onClick={setSelectedProcess} />
       </div>
 
+      <div className="print-break"></div>
+
       <div className="App-section">
         <h2>Simulations</h2>
         <SchedulingSection headline="First Come First Served (FCFS)" processes={processes} type="fcfs" />
         <SchedulingSection headline="Shortest Process Next (SPN)" processes={processes} type="spn" />
+        <div className="print-break"></div>
         <SchedulingSection headline="Shortest Remaining Time Next (SRT)" processes={processes} type="srt" />
         <SchedulingSection headline="Round Robin (Quantum = 1)" processes={processes} type="rr1" />
+        <div className="print-break"></div>
         <SchedulingSection headline="Round Robin (Quantum = 4)" processes={processes} type="rr4" />
         <SchedulingSection headline="Highest Priority First (with preemption)" processes={processes} type="hpwp" />
+        <div className="print-break"></div>
         <SchedulingSection headline="Highest Priority First (without preemption)" processes={processes} type="hpnp" />
       </div>
 
       <div className="footer">
         <a target="_blank" href="https://khadimfall.com">Khadim Fall</a>
         <a target="_blank" href="https://github.com/mono424/scheduling_test_app">GitHub</a>
+      </div>
+
+      <div className="footer-print">
+        OpenSource on Github: https://github.com/mono424/scheduling_test_app<br />
+        See live on: https://mono424.github.io/scheduling_test_app/<br />
+        by Khadim Fall [https://khadimfall.com]<br />
       </div>
 
       {selectedProcess && <ProcessDialog process={selectedProcess} onSave={updateProcess} onCancel={() => setSelectedProcess(null)} />}
