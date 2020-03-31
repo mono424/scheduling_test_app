@@ -44,6 +44,11 @@ function App() {
         <SchedulingSection headline="Highest Priority First (without preemption)" processes={processes} type="hpnp" />
       </div>
 
+      <div className="footer">
+        <a target="_blank" href="https://khadimfall.com">Khadim Fall</a>
+        <a target="_blank" href="https://github.com/mono424/scheduling_test_app">GitHub</a>
+      </div>
+
       {selectedProcess && <ProcessDialog process={selectedProcess} onSave={updateProcess} onCancel={() => setSelectedProcess(null)} />}
     </div>
   );
