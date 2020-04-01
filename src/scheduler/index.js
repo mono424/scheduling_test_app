@@ -53,7 +53,7 @@ function statMaker() {
       return process.startTimes[0] - process.arrivalTime;
     },
     _calcTotalTurnaroundTime(process) {
-      return [...process.terminateTimes].pop() - process.startTimes[0];
+      return [...process.terminateTimes].pop() - process.arrivalTime;
     },
     _processes: [],
   };
