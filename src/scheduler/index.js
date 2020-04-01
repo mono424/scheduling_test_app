@@ -50,7 +50,7 @@ function statMaker() {
       }));
     },
     _calcTotalResponseTime(process) {
-      return [...process.terminateTimes].pop() - process.arrivalTime;
+      return process.startTimes[0] - process.arrivalTime;
     },
     _calcTotalTurnaroundTime(process) {
       return [...process.terminateTimes].pop() - process.startTimes[0];
